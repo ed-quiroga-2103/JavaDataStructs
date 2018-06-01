@@ -6,34 +6,36 @@ package Structs;
 
 import java.util.Scanner;
 
-/* Class AVLNode */
-class AVLNode
-{
-    AVLNode left, right;
-    String data;
-    int height;
-
-    /* Constructor */
-    public AVLNode()
-    {
-        left = null;
-        right = null;
-        data = null;
-        height = 0;
-    }
-    /* Constructor */
-    public AVLNode(String n)
-    {
-        left = null;
-        right = null;
-        data = n;
-        height = 0;
-    }
-}
 
 /* Class AVLTree */
 public class AVLTree
 {
+    /* Class AVLNode */
+    public class AVLNode
+    {
+        AVLNode left, right;
+        public String data;
+        int height;
+
+        /* Constructor */
+        public AVLNode()
+        {
+            left = null;
+            right = null;
+            data = null;
+            height = 0;
+        }
+        /* Constructor */
+        public AVLNode(String n)
+        {
+            left = null;
+            right = null;
+            data = n;
+            height = 0;
+        }
+    }
+
+
     private AVLNode root;
 
     /* Constructor */
@@ -161,12 +163,13 @@ public class AVLTree
         }
     }
     /* Functions to search for an element */
-    public boolean search(String val)
+    public AVLNode search(String val)
     {
         return search(root, val);
     }
-    private boolean search(AVLNode r, String val)
+    private AVLNode search(AVLNode r, String val)
     {
+        AVLNode node = null;
         boolean found = false;
         while ((r != null) && !found)
         {
@@ -177,12 +180,12 @@ public class AVLTree
                 r = r.right;
             else
             {
+                node = r;
                 found = true;
                 break;
             }
-            found = search(r, val);
         }
-        return found;
+        return node;
     }
     /* Function for inorder traversal */
     public void inorder()

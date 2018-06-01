@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7daa1a76-7538-4f1e-88ea-f166cc0609ef" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Structs/AVLTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Structs/AVLTree.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,8 +18,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="87" selection-start-line="36" selection-start-column="87" selection-end-line="36" selection-end-column="87" />
+            <state relative-caret-position="225">
+              <caret line="39" column="69" selection-start-line="39" selection-start-column="69" selection-end-line="39" selection-end-column="69" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -61,9 +61,10 @@
       <file leaf-file-name="AVLTree.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Structs/AVLTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-738">
-              <caret line="163" column="37" lean-forward="true" selection-start-line="163" selection-start-column="37" selection-end-line="163" selection-end-column="37" />
+            <state relative-caret-position="180">
+              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
               <folding>
+                <element signature="class#AVLNode#0;class#AVLTree#0" />
                 <element signature="e#574#575#0" expanded="true" />
                 <element signature="e#601#602#0" expanded="true" />
                 <element signature="method#strGreaterThan#0;class#AVLTree#0" />
@@ -77,6 +78,7 @@
                 <element signature="e#1061#1062#0" expanded="true" />
                 <element signature="e#1150#1151#0" expanded="true" />
                 <element signature="e#1194#1195#0" expanded="true" />
+                <element signature="method#rotateWithLeftChild#0;class#AVLTree#0" />
                 <element signature="e#3464#3465#0" expanded="true" />
                 <element signature="e#3503#3504#0" expanded="true" />
                 <element signature="e#3837#3838#0" expanded="true" />
@@ -216,12 +218,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1527880445385</updated>
-      <workItem from="1527880450828" duration="3158000" />
+      <workItem from="1527880450828" duration="3770000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3158000" />
+    <option name="totallyTimeSpent" value="3770000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
@@ -324,9 +326,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Structs/AVLTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-738">
-          <caret line="163" column="37" lean-forward="true" selection-start-line="163" selection-start-column="37" selection-end-line="163" selection-end-column="37" />
+        <state relative-caret-position="180">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
           <folding>
+            <element signature="class#AVLNode#0;class#AVLTree#0" />
             <element signature="e#574#575#0" expanded="true" />
             <element signature="e#601#602#0" expanded="true" />
             <element signature="method#strGreaterThan#0;class#AVLTree#0" />
@@ -340,6 +343,7 @@
             <element signature="e#1061#1062#0" expanded="true" />
             <element signature="e#1150#1151#0" expanded="true" />
             <element signature="e#1194#1195#0" expanded="true" />
+            <element signature="method#rotateWithLeftChild#0;class#AVLTree#0" />
             <element signature="e#3464#3465#0" expanded="true" />
             <element signature="e#3503#3504#0" expanded="true" />
             <element signature="e#3837#3838#0" expanded="true" />
@@ -356,8 +360,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="87" selection-start-line="36" selection-start-column="87" selection-end-line="36" selection-end-column="87" />
+        <state relative-caret-position="225">
+          <caret line="39" column="69" selection-start-line="39" selection-start-column="69" selection-end-line="39" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

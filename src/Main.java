@@ -34,7 +34,10 @@ public class Main {
                     break;
                 case 2 :
                     System.out.println("Enter element to search");
-                    System.out.println("Search result : "+ avlt.search( scan.next() ));
+
+                    AVLTree.AVLNode node = avlt.search(scan.next());
+
+                    System.out.println("Search result : "+  node.data);
                     break;
                 case 3 :
                     System.out.println("Nodes = "+ avlt.countNodes());
